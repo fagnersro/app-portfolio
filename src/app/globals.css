@@ -22,6 +22,10 @@ a {
   color: #111;
 }
 
+.theme {
+  transition: 1s all ease;
+}
+
 .dark {
   background-color: #111;
   color: #bbb
