@@ -15,6 +15,11 @@ async function getData() {
   return res.json()
 }
 
+export const metadata = {
+  title: 'Fagner | Blog',
+  description: 'The Front End Blog',
+}
+
 export default async function Blog() {
   const data = await getData()
 

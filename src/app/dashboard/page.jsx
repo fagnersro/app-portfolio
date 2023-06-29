@@ -3,6 +3,11 @@
 import useSWR from 'swr'
 import styles from './page.module.css'
 
+export const metadata = {
+  title: 'Dashboard',
+  description: 'The Dashboard',
+}
+
 export default function Dashboard() {
   // método com useEffect
   // const [data, setData] = useState([])

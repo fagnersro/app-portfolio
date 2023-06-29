@@ -2,6 +2,11 @@ import Image from 'next/image'
 import styles from './page.module.css'
 import Button from '../../components/Button/Button'
 
+export const metadata = {
+  title: 'Fagner | About',
+  description: 'The About',
+}
+
 export default function About() {
   return (
     <div className={styles.container}>

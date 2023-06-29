@@ -15,6 +15,11 @@ function getData(cat) {
   return notFound()
 }
 
+export const metadata = {
+  title: 'Fagner | Works',
+  description: 'The Front End Works',
+}
+
 export default function Category({ params }) {
   const data = getData(params.category)
   return (

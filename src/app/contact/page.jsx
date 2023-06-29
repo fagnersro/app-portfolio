@@ -2,6 +2,11 @@ import Image from 'next/image'
 import styles from './page.module.css'
 import Button from '../../components/Button/Button'
 
+export const metadata = {
+  title: 'Fagner | Contato',
+  description: 'Fagner Dev Contact Information ',
+}
+
 export default function Contact() {
   return (
     <div className={styles.container}>
